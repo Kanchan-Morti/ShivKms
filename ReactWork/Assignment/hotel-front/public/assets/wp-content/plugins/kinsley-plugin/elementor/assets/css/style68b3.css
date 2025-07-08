@@ -1,0 +1,15 @@
+.elementor-editor-active .elementor {
+	padding-top: 100px;
+}
+.elementor-editor-active .knsl-top-bar,
+.elementor-editor-active footer {
+	display: none;
+}
+.elementor-editor-active .elementor-section-wrap:empty {
+	min-height: 0px;
+}
+.elementor-editor-active .knsl-scroll-animation {
+	opacity: 1 !important;
+  -webkit-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+}

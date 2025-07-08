@@ -1,0 +1,6 @@
+@StuentTestApp_HostAddress = http://localhost:5169
+
+GET {{StuentTestApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

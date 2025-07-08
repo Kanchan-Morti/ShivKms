@@ -1,0 +1,155 @@
+.container {
+    min-width: 760px;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    /* adjust this value to control how far from the top */
+    background-color: #f0f2f5;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+    font-size: 40px;
+    /* Adjust this value as needed */
+}
+
+.table-container {
+    max-height: 560px;
+    /* Set the height you want */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Optional: Make the table take full width */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #733885;
+    color: #f5f3f3;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 8px 14px;
+    margin: 0 4px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.btn-add {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #0a0909;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 12px;
+        background-color: #fff;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 16px;
+        top: 12px;
+        font-weight: bold;
+        text-align: left;
+        color: #555;
+    }
+}

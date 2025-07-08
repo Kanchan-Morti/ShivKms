@@ -1,0 +1,92 @@
+/* ViewDetailsStyle.css */
+
+.viewContainer {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+    font-size: 35px;
+    /* Adjust this value as needed */
+}
+
+
+.viewDetails {
+    background-color: #f8f9fa;
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    border-left: 4px solid #4a90e2;
+}
+
+.viewDetails p {
+    margin: 12px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.viewDetails strong {
+    display: inline-block;
+    width: 80px;
+    color: #222;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5a6268;
+}
+
+.btnBack {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btnBack:hover {
+    background-color: #5a6268;
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .viewContainer {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .viewDetails strong {
+        width: auto;
+        display: block;
+        margin-bottom: 4px;
+    }
+}

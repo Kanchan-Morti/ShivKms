@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Kiran Chougule",
+      "place": "Mumbai",
+      "phone": "90123456"
+    },
+    {
+      "id": "3",
+      "name": "Amol",
+      "place": "Delhi",
+      "phone": "90123456"
+    },
+    {
+      "id": "4",
+      "name": "Rohini",
+      "place": "Kohlapur",
+      "phone": "9034526"
+    },
+    {
+      "id": "5",
+      "name": "Komal",
+      "place": "Pune",
+      "phone": "9066526"
+    },
+    {
+      "id": "6",
+      "name": "Kaveri",
+      "place": "Pune",
+      "phone": "9066526"
+    },
+    {
+      "id": "7",
+      "name": "Shital",
+      "place": "Goa",
+      "phone": "26374538"
+    },
+    {
+      "id": "8",
+      "name": "Vivek",
+      "place": "Goa",
+      "phone": "26374538"
+    },
+    {
+      "id": "9",
+      "name": "Rishika",
+      "place": "Kohlapur",
+      "phone": "26374538"
+    },
+    {
+      "id": "10",
+      "name": "Ravindra Chougule",
+      "place": "Delhi",
+      "phone": "9960350826"
+    },
+    {
+      "id": "11",
+      "name": "Vivek Patil",
+      "place": "Goa",
+      "phone": "26374538"
+    },
+    {
+      "id": "12",
+      "name": "Rishika M",
+      "place": "Kohlapur",
+      "phone": "26374538"
+    },
+    {
+      "id": "13",
+      "name": "Machindra Chougule",
+      "place": "Delhi",
+      "phone": "9960350826"
+    }
+  ]
+}

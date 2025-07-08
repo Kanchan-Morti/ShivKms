@@ -1,0 +1,96 @@
+.Container {
+    width: 500px;
+    /* or use % for responsive width */
+    height: auto;
+    /* or set a fixed height like 600px */
+    max-height: 90vh;
+    /* optional: prevents it from overflowing the screen */
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: auto;
+    /* adds scroll if content overflows */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+    font-size: 40px;
+    /* Adjust this value as needed */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+    background-color: #f9fbff;
+}
+
+@media (max-width: 600px) {
+    .Container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px 8px 0 0;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Save Button */
+.btn-save {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Back Button */
+.btn-Back {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-Back:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.errorMsg{color: rgb(243, 66, 66);}

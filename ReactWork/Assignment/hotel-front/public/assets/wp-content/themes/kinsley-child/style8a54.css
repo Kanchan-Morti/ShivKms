@@ -1,0 +1,25 @@
+/*!
+Theme Name: Kinsley Child
+Theme URI: https://bslthemes.site/kinsley/
+Author: beshleyua
+Author URI: https://themeforest.net/user/beshleyua
+Description: Kinsley - Hotel WordPress Theme
+Version: 1.0.0
+License: General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Template: kinsley
+Text Domain: kinsley-child
+Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options
+*/
+
+body #trp-floater-ls .trp-with-flags .trp-flag-image {
+  margin-left: 5px;
+}
+body #trp-floater-ls {
+  left: auto;
+  right: 2.5%;
+}
+.knsl-cart {
+  height: 26px;
+  display: block;
+}

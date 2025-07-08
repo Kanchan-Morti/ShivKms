@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bndA92HAsT8F1sDF85m0KwO5InBr1vX7/LqX+dltDeU=",
+  "Source": "StudentsService",
+  "BasePath": "_content/StudentsService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
